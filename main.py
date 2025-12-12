@@ -26,7 +26,7 @@ features = ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal
 # יצירת היסטוגרמות לכל תכונה
 df[features].hist(figsize=(12, 10))
 plt.suptitle('Histograms of Iris Dataset Features', y=1.02)
-plt.show() # הצגת הגרפים (אופציונלי, ניתן למחוק אם מריצים ללא ממשק גרפי)
+#plt.show() # אם אתה מריץ בסביבה ללא ממשק גרפי, השאר את השורה הזו בהערה
 
 # --- שלב 3: צור תרשימי פיזור וקורלציה ---
 
@@ -37,5 +37,4 @@ plt.suptitle('Pair Plot of Iris Dataset with Species Hue', y=1.02)
 # שמירת הגרף לקובץ PNG
 plt.savefig('correlation.png')
 print("\nCorrelation scatter plot figure saved as 'correlation.png'")
-plt.show() # הצגת הגרפים (אופציונלי)
-
+#plt.show() # אם אתה מריץ בסביבה ללא ממשק גרפי, השאר את השורה הזו בהערה
