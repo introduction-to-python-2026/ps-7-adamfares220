@@ -1,1 +1,7 @@
+The correlation that I observed:
 
+correlation.png; the Correlation between Temperature and Bike Rentals shows that when the temperature increases the bike rentals also increases significantly, so it means that the correlation is positive.
+
+correlation.hum.png; the Correlation between humidity and Bike Rentals shows that when the humidity increases the bike rentals decreases a litle bit, so it means that the correlation is negative.
+
+correlation.windspeed.png; the Correlation between windsppeed and Bike Rentals shows that when the windspeed increases the bike rentals descreases significantly, so it means that the correlation is negative.  
